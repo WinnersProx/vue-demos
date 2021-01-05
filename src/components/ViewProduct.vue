@@ -5,7 +5,7 @@
             <div class="card bg-white w-100 d-flex flex-row justify-content-between p-2">
                 <div>Name: {{ product.name }}</div>
                 <div>
-                    {{ product.price || 'Free' }}
+                    {{ product.price + ' RWF' }}
                 </div>
             </div>
         </div>
